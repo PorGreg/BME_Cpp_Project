@@ -20,7 +20,7 @@ public:
     /*
      Base constructor, initialize root with the current directory
      */
-    FileSystem() : root(filesystem::current_path()) {}
+    FileSystem() {}
     
     /*
      Read the given file and execute the given function with every line

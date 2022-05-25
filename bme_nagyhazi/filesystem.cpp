@@ -8,6 +8,7 @@
 #include <functional>
 #include <fstream>
 #include <iostream>
+#include <unistd.h>
 #include "filesystem.hpp"
 #include "exceptions.hpp"
 #include "memtrace.hpp"
@@ -29,7 +30,7 @@ void FileSystem::writeFile(const string &fileName, const string &content) {
 }
 
 fstream FileSystem::getFile(const string &fileName, const ios_base::openmode mode) {
-    fstream f(getRoot() + fileName.c_str(), mode);
+    fstream f(fileName.c_str(), mode);
     if (!f.good())
         throw SaveFileNotFound();
     return f;
