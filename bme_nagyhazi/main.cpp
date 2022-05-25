@@ -7,7 +7,7 @@
 
 #include <iostream>
 #include "app.hpp"
-#include "memtrace.hpp"
+#include "memtrace.h"
 
 int main(int argc, const char * argv[]) {
     try {

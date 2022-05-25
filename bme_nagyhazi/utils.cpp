@@ -10,7 +10,7 @@
 #include <sstream>
 #include "utils.hpp"
 #include "exceptions.hpp"
-#include "memtrace.hpp"
+#include "memtrace.h"
 using namespace std;
 
 string *Utils::string_tokenize(string str, size_t size, char delimiter) {

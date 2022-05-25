@@ -9,7 +9,7 @@
 #define list_hpp
 
 #include <iostream>
-#include "memtrace.hpp"
+#include "memtrace.h"
 using namespace std;
 
 template <typename T, size_t defaultSize = 126>

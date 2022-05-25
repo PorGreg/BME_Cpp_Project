@@ -57,7 +57,7 @@
 		34ADADCB283E98C600F03522 /* laptops.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = laptops.txt; sourceTree = "<group>"; };
 		34ADADCC283E98C600F03522 /* laptop.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = laptop.hpp; sourceTree = "<group>"; };
 		34ADADCD283E98C600F03522 /* memtrace.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = memtrace.cpp; sourceTree = "<group>"; };
-		34ADADCE283E98C600F03522 /* memtrace.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = memtrace.hpp; sourceTree = "<group>"; };
+		34ADADCE283E98C600F03522 /* memtrace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = memtrace.h; sourceTree = "<group>"; };
 		34ADADCF283E98C600F03522 /* home.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = home.hpp; sourceTree = "<group>"; };
 		34ADADD0283E98C600F03522 /* dbrecord.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = dbrecord.cpp; sourceTree = "<group>"; };
 		34ADADD1283E98C600F03522 /* home.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = home.cpp; sourceTree = "<group>"; };
@@ -137,7 +137,7 @@
 				34ADADC7283E98C600F03522 /* login.hpp */,
 				34ADADC3283E98C600F03522 /* main.cpp */,
 				34ADADCD283E98C600F03522 /* memtrace.cpp */,
-				34ADADCE283E98C600F03522 /* memtrace.hpp */,
+				34ADADCE283E98C600F03522 /* memtrace.h */,
 				34ADADDA283E98C700F03522 /* product.cpp */,
 				34ADADD5283E98C600F03522 /* product.hpp */,
 				34ADADD8283E98C700F03522 /* products.cpp */,

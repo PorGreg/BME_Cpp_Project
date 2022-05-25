@@ -10,7 +10,7 @@
 
 #include <iostream>
 #include "context.hpp"
-#include "memtrace.hpp"
+#include "memtrace.h"
 using namespace std;
 
 class Screen {

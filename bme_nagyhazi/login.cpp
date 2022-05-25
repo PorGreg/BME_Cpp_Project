@@ -8,7 +8,7 @@
 #include <iostream>
 #include "login.hpp"
 #include "exceptions.hpp"
-#include "memtrace.hpp"
+#include "memtrace.h"
 using namespace std;
 
 Login::Login(Context &ctx) : Screen(ctx) {}

@@ -8,7 +8,7 @@
 #include "account_settings.hpp"
 #include "exceptions.hpp"
 #include "utils.hpp"
-#include "memtrace.hpp"
+#include "memtrace.h"
 
 AccountSettings::AccountSettings(Context &ctx) : Screen(ctx) {}
 

@@ -7,7 +7,7 @@
 
 #include <iostream>
 #include "user.hpp"
-#include "memtrace.hpp"
+#include "memtrace.h"
 using namespace std;
 
 User::User(string username, string password)

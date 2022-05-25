@@ -9,7 +9,7 @@
 #define dbrecord_hpp
 
 #include <iostream>
-#include "memtrace.hpp"
+#include "memtrace.h"
 using namespace std;
 
 class DbRecord {

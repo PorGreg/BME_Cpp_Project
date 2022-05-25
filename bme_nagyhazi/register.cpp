@@ -8,7 +8,7 @@
 #include <iostream>
 #include "register.hpp"
 #include "exceptions.hpp"
-#include "memtrace.hpp"
+#include "memtrace.h"
 using namespace std;
 
 Register::Register(Context &ctx) : Screen(ctx) {};

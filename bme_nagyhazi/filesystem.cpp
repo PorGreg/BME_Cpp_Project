@@ -11,7 +11,7 @@
 #include <unistd.h>
 #include "filesystem.hpp"
 #include "exceptions.hpp"
-#include "memtrace.hpp"
+#include "memtrace.h"
 using namespace std;
 
 void FileSystem::readFile(const string &fileName, function<void(string)> func) {

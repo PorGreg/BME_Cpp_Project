@@ -10,7 +10,7 @@
 
 #include <iostream>
 #include "dbrecord.hpp"
-#include "memtrace.hpp"
+#include "memtrace.h"
 using namespace std;
 
 class User : public DbRecord {

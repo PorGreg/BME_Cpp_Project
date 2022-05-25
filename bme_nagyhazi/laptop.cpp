@@ -6,7 +6,7 @@
 //
 
 #include "laptop.hpp"
-#include "memtrace.hpp"
+#include "memtrace.h"
 
 Laptop::Laptop(string name, int year, double price, int cpu, int mem, int storage)
 :  Product(name, year, price), cpuCore(cpu), memGB(mem), storageGB(storage) {}
