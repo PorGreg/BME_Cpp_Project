@@ -11,10 +11,10 @@
 using namespace std;
 
 User::User(string username, string password)
-: username(username), password(password), DbRecord() {}
+: DbRecord(), username(username), password(password)  {}
 
 User::User(string username, string password, unsigned long ID)
-: username(username), password(password), DbRecord(ID) {}
+: DbRecord(ID), username(username), password(password) {}
 
 User::User(User &user)
 : User(user.username, user.password, user.getID()) {}
