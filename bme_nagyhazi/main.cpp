@@ -10,6 +10,11 @@
 #include "memtrace.hpp"
 
 int main(int argc, const char * argv[]) {
-    App app;
-    return 0;
+    try {
+        App app;
+        return 0;
+    }
+    catch (std::exception &e) {
+        return 0;
+    }
 }
