@@ -10,17 +10,17 @@
 #include "memtrace.hpp"
 using namespace std;
 
-Product::Product(string name, int year, double price)
-: name(name), yearReleased(year), price(price), DbRecord() {}
+Product::Product(string nam, int year, double pric)
+: name(nam), yearReleased(year), price(pric), DbRecord() {}
 
-Product::Product(string name, int year, double price, unsigned long ID)
-: name(name), yearReleased(year), price(price), DbRecord(ID) {}
+Product::Product(string nam, int year, double pric, unsigned long ID)
+: name(nam), yearReleased(year), price(pric), DbRecord(ID) {}
 
 const string Product::getName() const {
     return name;
 }
-void Product::setName(string &name) {
-    name = name;
+void Product::setName(string &nam) {
+    name = nam;
 }
 
 const int Product::getYearReleased() const {
@@ -33,8 +33,8 @@ void Product::setYearReleased(int &year) {
 const double Product::getPrice() const {
     return price;
 }
-void Product::setPrice(double &price) {
-    price = price;
+void Product::setPrice(double &pric) {
+    price = pric;
 }
 
 const string Product::toString() const {

@@ -20,14 +20,14 @@ class Product : public DbRecord {
     int yearReleased;
     double price;
 public:
-    Product(string name, int year, double price);
-    Product(string name, int year, double price, unsigned long ID);
+    Product(string nam, int year, double pric);
+    Product(string nam, int year, double pric, unsigned long ID);
     
     /*
      Get and set name of product
      */
     const string getName() const;
-    void setName(string &name);
+    void setName(string &nam);
     
     /*
      Get and set release year
@@ -39,7 +39,7 @@ public:
      Get and set prive
      */
     const double getPrice() const;
-    void setPrice(double &price);
+    void setPrice(double &pric);
     
     /*
      Parse to string
