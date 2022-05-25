@@ -11,10 +11,10 @@
 using namespace std;
 
 Product::Product(string nam, int year, double pric)
-: name(nam), yearReleased(year), price(pric), DbRecord() {}
+: DbRecord(), name(nam), yearReleased(year), price(pric) {}
 
 Product::Product(string nam, int year, double pric, unsigned long ID)
-: name(nam), yearReleased(year), price(pric), DbRecord(ID) {}
+: DbRecord(ID), name(nam), yearReleased(year), price(pric) {}
 
 const string Product::getName() const {
     return name;
