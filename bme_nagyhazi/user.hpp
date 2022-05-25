@@ -34,7 +34,7 @@ public:
     
     bool operator==(User &user);
     
-    ~User() {}
+    virtual ~User() {}
 };
 
 ostream &operator<<(ostream &os, const User &user);

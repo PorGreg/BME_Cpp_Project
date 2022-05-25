@@ -52,25 +52,25 @@ void App::startCycle() {
     
     switch (ctx.getScreen()) {
         case HOME_SCREEN:
-            handleScreenChange(new Home(ctx));
+            handleScreenChange<Home>();
             break;
         case LOGIN_SCREEN:
-            handleScreenChange(new Login(ctx));
+            handleScreenChange<Login>();
             break;
         case REGISTER_SCREEN:
-            handleScreenChange(new Register(ctx));
+            handleScreenChange<Register>();
             break;
         case LOGGED_HOME_SCREEN:
-            handleScreenChange(new LoggedHome(ctx));
+            handleScreenChange<LoggedHome>();
             break;
         case ACCOUNT_SETTINGS_SCREEN:
-            handleScreenChange(new AccountSettings(ctx));
+            handleScreenChange<AccountSettings>();
             break;
         case PRODUCTS_SCREEN:
-            handleScreenChange(new Products(ctx));
+            handleScreenChange<Products>();
             break;
         case LIST_PRODUCTS_SCREEN:
-            handleScreenChange(new ListProduct(ctx));
+            handleScreenChange<ListProduct>();
             break;
         default:
             cout << "Went to unhandled route" << endl;
@@ -78,11 +78,12 @@ void App::startCycle() {
     }
 }
 
-void App::handleScreenChange(Screen *screen) {
-    screen->render();
+template <typename T>
+void App::handleScreenChange() {
+    T screen(ctx);
+    screen.render();
     logError();
-    screen->getInput();
-    delete screen;
+    screen.getInput();
 }
 
 void App::logError() {

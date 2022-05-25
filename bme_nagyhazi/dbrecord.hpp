@@ -21,7 +21,7 @@ public:
     
     const unsigned long getID() const;
     
-    virtual string toString();
+    virtual const string toString() const;
     
     virtual bool operator==(DbRecord &dbc);
     

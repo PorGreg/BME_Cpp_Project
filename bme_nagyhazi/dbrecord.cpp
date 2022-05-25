@@ -13,7 +13,7 @@ DbRecord::DbRecord() : ID(Utils::getRandomLong()) {}
 
 DbRecord::DbRecord(unsigned long ID) : ID(ID) {}
 
-string DbRecord::toString() {
+const string DbRecord::toString() const {
     return to_string(ID);
 }
 

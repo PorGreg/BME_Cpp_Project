@@ -27,7 +27,8 @@ public:
      Handles the change of the screen.
      Invoking the render, getInput and logError methods.
      */
-    void handleScreenChange(Screen *screen);
+    template <typename T>
+    void handleScreenChange();
     
     /*
      Log the current error message
