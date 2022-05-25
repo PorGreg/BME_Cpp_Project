@@ -138,6 +138,7 @@ void Context::readUsers::operator()(string line) {
     string *tempUser = Utils::string_tokenize(line, 3);
     User user(tempUser[1], tempUser[2], stoul(tempUser[0]));
     getCtx()->getUsers().add(user);
+    delete[] tempUser;
 }
 
 template <typename T>
@@ -152,6 +153,7 @@ void Context::readProducts<T>::operator()(string line) {
                       stoi(tempLaptop[6]),
                       stoul(tempLaptop[0]));
         getCtx()->template getProducts<T>()->add(laptop);
+        delete[] tempLaptop;
     }
 }
 
