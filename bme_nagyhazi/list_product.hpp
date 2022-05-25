@@ -10,7 +10,7 @@
 
 #include <iostream>
 #include "screen.hpp"
-#include "memtrace.hpp"
+#include "memtrace.h"
 
 class ListProduct : public Screen {
 public:

@@ -10,7 +10,7 @@
 #include "filesystem.hpp"
 #include "utils.hpp"
 #include "exceptions.hpp"
-#include "memtrace.hpp"
+#include "memtrace.h"
 using namespace std;
 
 Context::Context() : fileSystem(), users() {

@@ -11,7 +11,7 @@
 #include <iostream>
 #include "screen.hpp"
 #include "context.hpp"
-#include "memtrace.hpp"
+#include "memtrace.h"
 using namespace std;
 
 class AccountSettings : public Screen {

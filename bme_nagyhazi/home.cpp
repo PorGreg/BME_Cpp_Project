@@ -9,7 +9,7 @@
 #include "home.hpp"
 #include "exceptions.hpp"
 #include "utils.hpp"
-#include "memtrace.hpp"
+#include "memtrace.h"
 using namespace std;
 
 Home::Home(Context &ctx) : Screen(ctx) {}

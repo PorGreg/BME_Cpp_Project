@@ -14,7 +14,7 @@
 #include "laptop.hpp"
 #include "list.hpp"
 #include "product.hpp"
-#include "memtrace.hpp"
+#include "memtrace.h"
 using namespace std;
 
 const string USERS_FILE = "users.txt";

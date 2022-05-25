@@ -16,7 +16,7 @@
 #include "list_product.hpp"
 #include "exceptions.hpp"
 #include "context.hpp"
-#include "memtrace.hpp"
+#include "memtrace.h"
 using namespace std;
 
 App::App() : ctx() {

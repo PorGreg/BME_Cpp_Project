@@ -8,7 +8,7 @@
 #include "logged_home.hpp"
 #include "exceptions.hpp"
 #include "utils.hpp"
-#include "memtrace.hpp"
+#include "memtrace.h"
 
 LoggedHome::LoggedHome(Context &ctx) : Screen(ctx) {}
 

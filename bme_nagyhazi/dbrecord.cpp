@@ -7,7 +7,7 @@
 
 #include "utils.hpp"
 #include "dbrecord.hpp"
-#include "memtrace.hpp"
+#include "memtrace.h"
 
 DbRecord::DbRecord() : ID(Utils::getRandomLong()) {}
 

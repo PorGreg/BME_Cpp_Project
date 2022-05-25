@@ -8,7 +8,7 @@
 #include "products.hpp"
 #include "utils.hpp"
 #include "exceptions.hpp"
-#include "memtrace.hpp"
+#include "memtrace.h"
 
 Products::Products(Context &ctx) : Screen(ctx) {}
 

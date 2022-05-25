@@ -11,7 +11,7 @@
 #include <functional>
 #include <fstream>
 #include <iostream>
-#include "memtrace.hpp"
+#include "memtrace.h"
 using namespace std;
 
 class FileSystem {

@@ -10,7 +10,7 @@
 
 #include <iostream>
 #include "product.hpp"
-#include "memtrace.hpp"
+#include "memtrace.h"
 
 class Laptop : public Product {
     int cpuCore, memGB, storageGB;

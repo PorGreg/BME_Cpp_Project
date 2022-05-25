@@ -7,7 +7,7 @@
 
 #include <iostream>
 #include "product.hpp"
-#include "memtrace.hpp"
+#include "memtrace.h"
 using namespace std;
 
 Product::Product(string nam, int year, double pric)

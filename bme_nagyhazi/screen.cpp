@@ -7,7 +7,7 @@
 
 #include <iostream>
 #include "screen.hpp"
-#include "memtrace.hpp"
+#include "memtrace.h"
 
 Screen::Screen(Context &ctx) : ctx(&ctx) {};
 
